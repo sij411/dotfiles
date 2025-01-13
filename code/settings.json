@@ -1,0 +1,62 @@
+{
+  "terminal.integrated.fontFamily": "monospace",
+  "terminal.integrated.automationShell.windows": "",
+  "files.autoSave": "afterDelay",
+  "[json]": {
+    "vscode_custom_css.imports": [""],
+    "vscode_custom_css.policy": true,
+    "editor.quickSuggestions": {
+      "strings": true
+    },
+    "editor.suggest.insertMode": "replace"
+  },
+  "editor.suggestSelection": "first",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "python.languageServer": "Pylance",
+  "files.associations": {
+    "*.html": "html",
+    "**/templates/**/*.html": "django-html"
+  },
+  "emmet.includeLanguages": {
+    "django-html": "html"
+  },
+  "unibeautify.enabled": true,
+  "[django-html]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+  },
+  "editor.formatOnSave": true,
+  "python.createEnvironment.trigger": "off",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "material-icon-theme.languages.associations": {},
+  "workbench.preferredDarkColorTheme": "2077",
+  "workbench.preferredHighContrastColorTheme": "2077",
+  "workbench.preferredHighContrastLightColorTheme": "2077",
+  "workbench.preferredLightColorTheme": "2077",
+  "[python]": {
+    "editor.formatOnType": true,
+    "editor.defaultFormatter": "Glavin001.unibeautify-vscode"
+  },
+  "python.formatting.provider": "black",
+  "settingsSync.ignoredExtensions": [],
+  "[rust]": {
+    "editor.defaultFormatter": "rust-lang.rust-analyzer"
+  },
+  "[astro]": {
+    "editor.defaultFormatter": "astro-build.astro-vscode"
+  },
+  "rust-analyzer.linkedProjects": [],
+  "terminal.integrated.inheritEnv": false,
+  "editor.fontSize": 12,
+  "workbench.settings.applyToAllProfiles": ["editor.fontSize"],
+  "terminal.integrated.fontSize": 11,
+  "remote.SSH.configFile": "/home/bering-gpu-3/kjw/.ssh/config",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.minimap.enabled": false,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.colorTheme": "Tokyo Night",
+  "terminal.integrated.enableMultiLinePasteWarning": false
+}
