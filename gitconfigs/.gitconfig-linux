@@ -1,0 +1,23 @@
+[user]
+	email = work@kwonjiwon.org
+	name = Jiwon Kwon
+	signingkey = CA826E48E67D7C89
+[credential "https://github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+	helper = 
+	helper = !/usr/bin/gh auth git-credential
+[commit]
+	gpgsign = true
+[gpg]
+	program = /usr/bin/gpg2
+[tag]
+	gpgSign = true
+[alias]
+	st = status --short --branch
+	sw = switch
+	cm = commit -S -m
+	ca = commit --amend
+	l = log --color --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr)%C(bold blue)<%an>%Creset' --abbrev-commit
+	f = fetch --tags --all -p
